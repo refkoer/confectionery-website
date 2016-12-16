@@ -62,7 +62,7 @@ footer {
 }
 
 .card {
-  background-color: #000;
+  background-color: #bea585;
 }
 
 
@@ -72,11 +72,11 @@ footer {
 }
 
 .card:hover .btn {
-  background-color: #fff;
-  color: #000;
+  background-color: #bea585;
+  color: #fff;
 }
 
 .card:hover {
-  background-color: #bea585;
+  background-color: #fff;
   color: #000;
 }
