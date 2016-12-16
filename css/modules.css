@@ -522,9 +522,9 @@ ol > li::before {
   cursor: pointer;
   display: inline-block;
   padding: .375em .75em .42em;
-  background-color: #333;
+  background-color: #000;
   border-radius: 8px;
-  border: 3px solid #333;
+  border: 3px solid #000;
   color: #fff;
   text-decoration: none;
 }
@@ -553,9 +553,7 @@ ol > li::before {
 
 .btn-ghost,
 .btn--ghost {
-  background-color: transparent;
-  border-color: #333;
-  color: #000;
+  background-color: #bea585;
 }
 
 .btn-ghost:focus,

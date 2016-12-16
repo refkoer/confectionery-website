@@ -40,10 +40,10 @@ i {
 }
 
 a:hover {
-  color: #fff;
+  color: #000;
 }
 
-.nav a:hover {
+.nav li:hover {
   background-color: #fff;
   color: #000;
 }
@@ -54,4 +54,28 @@ header {
 
 footer {
   background-color: #000;
+}
+
+.title {
+  background-color: #000;
+}
+
+.card {
+  background-color: #000;
+}
+
+
+.btn:hover {
+  color: #fff;
+  background-color: #333;
+}
+
+.card:hover .btn {
+  background-color: #000;
+  color: #fff;
+}
+
+.card:hover {
+  background-color: #bea585;
+  color: #000;
 }
