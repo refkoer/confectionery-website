@@ -537,8 +537,8 @@ ol > li::before {
 }
 
 .btn-light, .btn--light {
-  background-color: #e2e2e2;
-  border-color: #e2e2e2;
+  background-color: #bea585;
+  border-color: #bea585;
   color: #000;
 }
 
@@ -546,9 +546,9 @@ ol > li::before {
 .btn-light:hover,
 .btn--light:focus,
 .btn--light:hover {
-  background-color: #666;
-  border-color: #666;
-  color: #fff;
+  background-color: #bea585;
+  border-color: #bea585;
+  color: #000;
 }
 
 .btn-ghost,
