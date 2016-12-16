@@ -503,19 +503,6 @@ caption {
     padding-left: 1.6em;
   }
 
-  .hang-punc {
-    float: left;
-    margin-left: -1.4em;
-    text-align: right;
-    width: 1.3em;
-  }
-
-  table {
-    margin-left: -.35rem;
-    margin-right: -.35rem;
-    width: calc(100% + .35rem + .35rem);
-  }
-
   input,
   option,
   select {

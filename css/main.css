@@ -11,8 +11,7 @@ html {
   text-size-adjust: 100%;
   box-sizing: border-box;
   font-family: sans-serif;
-  font-family: 'Baloo Thambi', sans-serif;;
-
+  font-family: "Baloo Thambi", sans-serif;
 }
 
 *, *::before, *::after {
