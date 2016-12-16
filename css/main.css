@@ -11,6 +11,7 @@ html {
   text-size-adjust: 100%;
   box-sizing: border-box;
   font-family: sans-serif;
+
 }
 
 *, *::before, *::after {
@@ -18,9 +19,16 @@ html {
 }
 
 body {
-  margin: 0
+  background-image: url("../images/bg-icon.svg");
+  background-repeat: repeat;
+  background-size: 48px;
+  margin: 0;
+  background-color: #bea585;
 }
 
+main{
+  background-color: #fff;
+}
 
 a {
   text-decoration: none;
