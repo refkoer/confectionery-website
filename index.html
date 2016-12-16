@@ -98,23 +98,33 @@
           <h2 class="exa">Contact Us</h2>
           <p class="milli">Contact us for questions, suggestions or maybe just saying hi.</p>
         </div>
-        <form class="grid" method="post">
-          <div class="unit [ xs-2 s-2 m-2 l-2 ] push gutter-1-2">
-            <label class="push-1-8" for="name">Your name</label>
-            <input id="name">
-          </div>
-          <div class="unit [ xs-2 s-2 m-2 l-2 ] push gutter-1-2">
-            <label class="push-1-8" for="email">E-mail address</label>
-            <input id="email" type="email">
-          </div>
-          <div class="unit [ xs-1 s-1 m-1 l-1 ] push gutter-1-2">
-            <label class="push-1" for="type">Message</label>
-            <input id="message" type="message">
-          </div>
-          <div class="unit xs-1 text-center">
-            <button class="btn btn-ghost" type="submit">Send</button>
-          </div>
-        </form>
+        <div class="unit xs-1 s-1 m-1 l-1 island-1-2">
+          <form class="push-0" method="POST" action="https://formspree.io/refkoer@yahoo.com">
+            <div class="push-0">
+              <label for="name">Name</label>
+              <input id="name" name="name">
+            </div>
+            <div class="push">
+              <label for="email">Your email</label>
+              <input id="email" type="email" placeholder="me@me.com" name="email">
+            </div>
+            <div class="push">
+              <label for="subject">Subject</label>
+              <select id="subject" name="_subject">
+                <option>Get a uote!</option>
+                <option>General question</option>
+                <option>Just to talk</option>
+              </select>
+            </div>
+            <div class="push">
+              <label for="details">What's up?</label>
+              <textarea id="details" name="message"></textarea>
+            </div>
+            <div>
+              <button class="btn ghost" type="submit">Send Message</button>
+            </div>
+          </form>
+        </div>
       </section>
 
       <section>
