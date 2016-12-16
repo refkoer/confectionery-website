@@ -27,7 +27,8 @@ body {
 }
 
 main {
-  background-color: #fff;
+  background-color: #000;
+  color: #fff;
 }
 
 a {
@@ -71,8 +72,8 @@ footer {
 }
 
 .card:hover .btn {
-  background-color: #000;
-  color: #fff;
+  background-color: #fff;
+  color: #000;
 }
 
 .card:hover {
