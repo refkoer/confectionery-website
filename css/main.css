@@ -31,10 +31,6 @@ main {
   color: #fff;
 }
 
-.hours {
-  background-color: #bea585;
-}
-
 a {
   text-decoration: none;
   color: #fff;
@@ -45,7 +41,7 @@ i {
 }
 
 a:hover {
-  color: #fff;
+  color: #000;
 }
 
 .nav li:hover {
